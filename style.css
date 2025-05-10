@@ -1,0 +1,68 @@
+.Header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .Info
+    {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    }
+
+    .Profile 
+    {
+    width: 250px;
+    height: 250px;
+    border: 2px rgb(56, 18, 56) solid;
+    box-shadow: 0px 0px 20px rgb(66, 19, 66);
+    border-radius: 50px;
+    }
+}
+
+.Links
+{
+    .Instagram
+    {
+        width: 155px;
+        height: 155px;
+        margin-left: 25%;
+        margin-top: 3%;
+    }
+    
+    .Link_Instagram
+        {
+        margin-left: -112px;
+        }
+
+    .Github
+    {
+        width: 155px;
+        height: 155px;
+        margin-left: 23%;
+        margin-top: 3%;
+    }
+
+    .Link_Github
+    {
+        margin-top: 250px;
+        margin-left: -112px;
+    }
+
+    .Link_LinkedIn
+    {
+        margin-top: 250px;
+        margin-left: -112px;
+    }
+
+    .LinkedIn
+    {
+        width: 155px;
+        height: 155px;
+        margin-left: 23%;
+        margin-top: 3%;
+    }
+}
